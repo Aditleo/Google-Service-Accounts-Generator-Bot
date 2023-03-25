@@ -4,7 +4,7 @@ class config:
     APP_ID = os.environ.get('16621564')
     API_HASH = os.environ.get('8b0bf7e5014d7a6862de76cf59e424b4')
     DATABASE_URL = os.environ.get('postgresql://postgres:nUqt9ocNWwUDftKhDLEC@containers-us-west-103.railway.app:6690/railway')    
-    SUDO_USERS = os.environ.get('SUDO_USERS')
+    SUDO_USERS = os.environ.get('1814487265')
     SUPPORT_CHAT_LINK = "t.me/moedyiu"
     DOWNLOAD_DIRECTORY = "./downloads/"
     

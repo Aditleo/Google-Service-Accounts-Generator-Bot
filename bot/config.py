@@ -3,7 +3,7 @@ class config:
     BOT_TOKEN = os.environ.get('6282209685:AAHJIE9PLLfOVWPqSyc5ua35gLl6lWR6Ey4')
     APP_ID = os.environ.get('16621564')
     API_HASH = os.environ.get('8b0bf7e5014d7a6862de76cf59e424b4')
-    DATABASE_URL = os.environ.get('DATABASE_URL')    
+    DATABASE_URL = os.environ.get('postgresql://postgres:nUqt9ocNWwUDftKhDLEC@containers-us-west-103.railway.app:6690/railway')    
     SUDO_USERS = os.environ.get('SUDO_USERS')
     SUPPORT_CHAT_LINK = "t.me/moedyiu"
     DOWNLOAD_DIRECTORY = "./downloads/"

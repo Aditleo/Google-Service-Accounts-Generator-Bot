@@ -29,7 +29,6 @@ try:
     SUDO_USERS = config.SUDO_USERS
     SUPPORT_CHAT_LINK = config.SUPPORT_CHAT_LINK
     DOWNLOAD_DIRECTORY = config.DOWNLOAD_DIRECTORY
-  SUDO_USERS.append(939425014)
   SUDO_USERS = list(set(SUDO_USERS))
 except KeyError:
   LOGGER.error('One or more configuration values are missing exiting now.')
